@@ -49,7 +49,6 @@ class AcneDataset(Dataset):
         return len(self.image_paths)
 
     def __getitem__(self, idx):
-        # Load image and its associated person label
         image_path = self.image_paths[idx]
         person_name = self.person_labels[idx]
         filename = os.path.splitext(os.path.basename(image_path))[0]
