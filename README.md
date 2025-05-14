@@ -1,4 +1,4 @@
-# AcneSegNet: Segmentação de Espinhas em Faces com U-Net
+# Segmentação de Espinhas em Faces com U-Net
 
 Este projeto tem como objetivo realizar a **segmentação automática de espinhas** em imagens faciais, utilizando redes neurais convolucionais (CNNs) e técnicas de visão computacional.
 
